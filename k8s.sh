@@ -22,6 +22,12 @@ kubectl get pods -o wide
 kubectl scale --replicas=3 deployments/nginx
 
 
+# apply a deployment manifest
+kubectl apply -f ./deployment.yaml
+
+# check deployment
+kubectl get deploy contoso-website
+
 
 
 
